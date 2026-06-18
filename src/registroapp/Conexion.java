@@ -6,9 +6,9 @@ import java.sql.SQLException;
 
 public class Conexion {
     // Datos reales obtenidos de tus variables de Railway
-    private static final String URL = "jdbc:mysql://shuttle.proxy.rlwy.net:29221/railway";
-    private static final String USER = "root";
-    private static final String PASSWORD = "mItDFwOHFATfIbISgBoTdFKczbnbKmnA";
+    private static final String URL = "jdbc:mysql://tu conexion ";
+    private static final String USER = "tu user ";
+    private static final String PASSWORD = "tu token ";
 
     public static Connection getConexion() {
         Connection con = null;
